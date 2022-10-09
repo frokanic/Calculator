@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/standard2">
+
+    <fragment
+        android:id="@+id/standard2"
+        android:name="com.example.calculatorapp.ui.fragments.StandardFragment"
+        android:label="Standard" >
+        <action
+            android:id="@+id/action_standard2_to_scientific"
+            app:destination="@id/scientific" />
+    </fragment>
+    <fragment
+        android:id="@+id/scientific"
+        android:name="com.example.calculatorapp.ui.fragments.ScientificFragment"
+        android:label="Scientific" >
+        <action
+            android:id="@+id/action_scientific_to_standard2"
+            app:destination="@id/standard2" />
+    </fragment>
+</navigation>

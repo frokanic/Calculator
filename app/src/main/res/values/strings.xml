@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="c">C</string>
+    <string name="clear_symbol">⌫</string>
+    <string name="currency_symbol">$</string>
+    <string name="div_symbol">/</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="times_symbol">*</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="minus_symbol">-</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="add_symbol">+</string>
+    <string name="comma_symbol">,</string>
+    <string name="_0">0</string>
+    <string name="equals_symbol">=</string>
+    <string name="plus_minus">+/-</string>
+    <string name="dot_symbol">.</string>
+    <string name="calculator">Calculator</string>
+    <string name="icon_for_changing_currency">icon for changing currency</string>
+    <string name="currency">Currency</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="currency_availability_message">Currency conversion is not available</string>
+    <string name="rightParenthesis">)</string>
+    <string name="leftParenthesis">(</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="power">^</string>
+    <string name="sqrt">sqrt</string>
+    <string name="factorial">x!</string>
+    <string name="inverse">1/x</string>
+    <string name="pi">π</string>
+    <string name="e">e</string>
+    <string name="percentage">%</string>
+
+    <string-array name="modes">
+        <item>Normal</item>
+        <item>Scientific</item>
+    </string-array>
+
+</resources>

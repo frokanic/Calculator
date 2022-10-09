@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/changeCurrencyBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/icon_for_changing_currency"
+            android:padding="10dp"
+            android:src="@drawable/ic_more_vert"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp">
+
+        <TextView
+            android:id="@+id/tvHex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HEX"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvOct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCT"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvHex" />
+
+        <TextView
+            android:id="@+id/tvBin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIN"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOct" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="20dp">
+
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:maxLines="2"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="20dp">
+
+
+
+        <TextView
+            android:id="@+id/tvPreResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:lines="2"
+            android:maxLines="2"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/c"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/btnPlusMinus"
+            style="@style/calculatorBtn"
+            android:text="@string/plus_minus"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+        <Button
+            android:id="@+id/btnPercentage"
+            style="@style/calculatorBtn"
+            android:text="@string/currency_symbol"
+            android:textAlignment="center"
+            android:textColor="@color/light_green" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/div_symbol"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num_7"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/num_8"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/num_9"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/times"
+            style="@style/calculatorBtn"
+            android:text="@string/times_symbol"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num_4"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/num_5"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/num_6"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/minus"
+            style="@style/calculatorBtn"
+            android:text="@string/minus_symbol"
+            android:textAlignment="center"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/num_1"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/num_2"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/num_3"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/add_symbol"
+            android:textColor="@color/green" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/btnSwapScreens"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:src="@drawable/ic_swap" />
+
+        <Button
+            android:id="@+id/num_0"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/comma"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/dot_symbol" />
+
+        <Button
+            android:id="@+id/equals"
+            style="@style/calculatorBtn"
+            android:textAlignment="center"
+            android:text="@string/equals_symbol"
+            android:textColor="@color/green" />
+    </LinearLayout>
+</LinearLayout>
