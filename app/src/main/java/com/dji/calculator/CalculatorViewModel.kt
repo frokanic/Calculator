@@ -65,17 +65,24 @@ class CalculatorViewModel : ViewModel() {
 
     fun delete() {
         if (operator == null && number1.isNotEmpty()) {
-            number1 = number1.dropLast(1)
+            if (number1 == "-" || (number1.startsWith("-") && number1.length == 2)) {
+                number1 = ""
+            } else {
+                number1 = number1.dropLast(1)
+            }
             _calculatorResult.value = number1
         } else if (operator != null && number2.isNotEmpty()) {
-            number2 = number2.dropLast(1)
+            if (number2 == "-" || (number2.startsWith("-") && number2.length == 2)) {
+                number2 = ""
+            } else {
+                number2 = number2.dropLast(1)
+            }
             _calculatorResult.value = "$number1 ${getOperatorSymbol(operator)} $number2"
         } else if (operator != null && number2.isEmpty()) {
             operator = null
             _calculatorResult.value = number1
         }
     }
-
 
     fun clear() {
         number1 = ""
