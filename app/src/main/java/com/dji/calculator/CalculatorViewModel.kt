@@ -104,6 +104,10 @@ class CalculatorViewModel : ViewModel() {
     }
 
     private fun performPreviousAction() {
+        if (number1 == "-" || number2 == "-") {
+            return
+        }
+
         val num1 = number1.toDouble()
         val num2 = number2.toDouble()
         number1 = when (operator) {
