@@ -1,4 +1,4 @@
-package com.dji.calculator
+package com.dji.calculator.presentation.calculator_screen
 
 import android.os.Bundle
 import android.view.LayoutInflater

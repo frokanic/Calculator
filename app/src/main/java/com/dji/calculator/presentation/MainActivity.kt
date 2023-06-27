@@ -1,7 +1,9 @@
-package com.dji.calculator
+package com.dji.calculator.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dji.calculator.presentation.calculator_screen.CalculatorFragment
+import com.dji.calculator.R
 import com.dji.calculator.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

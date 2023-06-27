@@ -1,8 +1,9 @@
-package com.dji.calculator
+package com.dji.calculator.presentation.calculator_screen
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.dji.calculator.enums.Operator
 
 class CalculatorViewModel : ViewModel() {
 
@@ -13,13 +14,6 @@ class CalculatorViewModel : ViewModel() {
     private var number2: String = ""
     private var operator: Operator? = null
     private var currentNumber: String = ""
-
-    enum class Operator {
-        ADDITION,
-        SUBTRACTION,
-        MULTIPLICATION,
-        DIVISION
-    }
 
     fun add() {
         handleOperator(Operator.ADDITION)
