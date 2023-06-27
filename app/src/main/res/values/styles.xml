@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Custom Round Button Style -->
+    <style name="RoundButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">#FFFFFF</item> <!-- Text color -->
+        <item name="android:textSize">18sp</item> <!-- Text size -->
+        <item name="android:background">@drawable/round_button</item> <!-- Background -->
+    </style>
+</resources>
