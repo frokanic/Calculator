@@ -2,8 +2,6 @@
 
 A simple calculator app built using the MVVM (Model-View-ViewModel) architecture. The app allows basic calculations such as addition, subtraction, multiplication, and division.
 
-![358789925_642172374506078_560273751231951680_n](https://github.com/frokanic/Calculator/assets/84749437/8220997f-f370-4ffd-a445-a1e3d0c3a96f)
-
 
 ## Features
 
@@ -26,7 +24,6 @@ A simple calculator app built using the MVVM (Model-View-ViewModel) architecture
 
 ## Screenshots
 
-![355967463_292075656569151_7493919683451256579_n](https://github.com/frokanic/Calculator/assets/84749437/956ddf29-3523-4edc-b169-13365df930d7)
 
 
 ## Contact
