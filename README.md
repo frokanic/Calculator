@@ -2,7 +2,6 @@
 
 A simple and elegant calculator app built using the MVVM (Model-View-ViewModel) architecture. The app allows basic calculations such as addition, subtraction, multiplication, and division.
 
-📸 ![Screenshot 1](https://github.com/your-username/your-repo/raw/main/screenshots/screenshot1-small.png)
 
 ## Features ✨
 
@@ -26,7 +25,6 @@ A simple and elegant calculator app built using the MVVM (Model-View-ViewModel) 
 
 ## Screenshots 📷
 
-![Screenshot 2](https://github.com/your-username/your-repo/raw/main/screenshots/screenshot2-small.png)
 
 ## Testing ✅
 
