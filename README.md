@@ -2,6 +2,8 @@
 
 A simple and elegant calculator app built using the MVVM (Model-View-ViewModel) architecture. The app allows basic calculations such as addition, subtraction, multiplication, and division.
 
+📸 ![Screenshot 1](https://github.com/your-username/your-repo/raw/main/screenshots/screenshot1-small.png)
+
 ## Features ✨
 
 - Perform basic arithmetic calculations: addition, subtraction, multiplication, and division.
@@ -11,6 +13,7 @@ A simple and elegant calculator app built using the MVVM (Model-View-ViewModel) 
 - Built using the MVVM architecture for separation of concerns and maintainability.
 - Utilizes Android Architecture Components such as ViewModel and LiveData. 🏗️
 - Implements ViewBinding for efficient view access and null safety. 🔗
+- Includes comprehensive unit tests to ensure accuracy and reliability. ✅
 
 ## Technologies Used 🚀
 
@@ -23,8 +26,14 @@ A simple and elegant calculator app built using the MVVM (Model-View-ViewModel) 
 
 ## Screenshots 📷
 
+![Screenshot 2](https://github.com/your-username/your-repo/raw/main/screenshots/screenshot2-small.png)
 
+## Testing ✅
+
+The Calculator App includes a comprehensive suite of unit tests to verify the correctness and functionality of its calculations. The tests cover scenarios such as appending digits, performing arithmetic operations, clearing the calculator, changing the sign of a number, and more.
+
+To run the unit tests locally, you can navigate to the `CalculatorViewModelTest` class located in the `com.dji.calculator` package. This class contains individual test methods for each specific functionality, ensuring that the app behaves as expected.
 
 ## Contact 📧
 
-For any questions or inquiries, feel free to reach out to [your-email@example.com](mailto:your-email@example.com).
+For any questions or inquiries, feel free to reach out to f.rokanis@gmail.com
